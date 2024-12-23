@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>NextGen Customware</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <img src="./images/logo.jpg" alt="NextGen CustomWare Logo" />
+        <h1>NG CustomWare</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#happy-customers">Customers</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        &#9776;
+      </button>
+      <div class="nav-mobile">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#happy-customers">Customers</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- Hoodies Section with Slideshow -->
+    <div class="home">
+      <img src="./images/NG_Logo_Clear.png" alt="home" />
+      <h2 class="slogan">Define your style with us!</h2>
+    </div>
+    <section class="section">
+      <div class="content-box">
+        <h2>Welcome to NG CustomWare</h2>
+        <p>
+          Your trusted partner in custom corporate apparel and promotional
+          products. We specialize in providing high-quality, customizable
+          clothing solutions to meet the unique needs of businesses across
+          various industries. Whether you’re looking to outfit your team,
+          promote your brand, or offer thoughtful gifts to clients, we’re here
+          to help you make a lasting impression
+        </p>
+
+        <div class="slideshow-container" id="hoodies-slideshow">
+          <!-- Slideshow images -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="./images/Hoodies_02_editied.png" class="slider-image" />
+            <div class="text">Hoodie</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="./images/polo tshirt2.jpg" class="slider-image" />
+            <div class="text">Polo t-shirt</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="./images/cap1.jpg" class="slider-image" />
+            <div class="text">Cap</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="./images/hoodie3.jpg" class="slider-image" />
+            <div class="text">Hoodie</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="./images/logo1.jpg" class="slider-image" />
+            <div class="text">Sample Hoodie</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="./images/polo.jpg" class="slider-image" />
+            <div class="text">Polo t-shirt</div>
+          </div>
+          <!-- Additional slides as needed -->
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <!-- Navigation Dots -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+      <div class="content-box">
+        <h2>Our Services</h2>
+        <p>
+          At NextGen CustomWare, we offer a wide range of customizable products,
+          including:
+        </p>
+        <div class="services-container">
+          <div class="service-card">
+            <img src="images/hoodie1.jpg" alt="hoodie1" />
+            <h3>Hoodies & Winter Caps (Toques)</h3>
+          </div>
+
+          <div class="service-card">
+            <img src="images/cap.jpg" alt="cap" />
+            <h3>Caps & Beanies</h3>
+          </div>
+
+          <div class="service-card">
+            <img src="images/polo.jpg" alt="tshirt" />
+            <h3>T-Shirts & Polo Shirts</h3>
+          </div>
+
+          <div class="service-card">
+            <img src="images/student-849825_1280.jpg" alt="office wear" />
+            <h3>Office Wear</h3>
+          </div>
+
+          <div class="service-card">
+            <img src="images/shirts-428600_1280.jpg" alt="shirts" />
+            <h3>Corporate Apparel</h3>
+          </div>
+
+          <div class="service-card">
+            <img
+              src="images/business-card-586271_1280.jpg"
+              alt="Business cards"
+            />
+            <h3>Stickers & Business Cards</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="section" id="contact">
+      <div class="content-box">
+        <h2>Contact Us</h2>
+        <p>
+          We’d love to hear from you! Fill out the form below, and we’ll get
+          back to you as soon as possible.
+        </p>
+        <form
+          action="https://formsubmit.co/rohan@nextgencustomware.ca"
+          method="POST"
+          class="contact-form"
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://yourdomain.com/thank-you.html"
+          />
+          <label for="name">Name <span class="required">*</span></label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <label for="email">Email <span class="required">*</span></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          />
+          <label for="subject">Subject <span class="required">*</span></label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject"
+            required
+          />
+          <label for="message">Message <span class="required">*</span></label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="content-box">
+        <div class="why-choose-us">
+          <h2>Why Choose Us?</h2>
+          <div class="cards-container">
+            <div class="card">
+              <h3>High-Quality Fabrics</h3>
+              <p>
+                We take pride in sourcing premium materials to ensure comfort
+                and longevity. Whether it’s for a casual team outing or a
+                corporate event, our products are built to last, maintaining
+                their look and feel wash after wash.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Custom Design Services</h3>
+              <p>
+                Our expert design team is dedicated to bringing your ideas to
+                life. We’ll work with you to create unique, tailored designs,
+                providing a digital copy for approval before production to
+                ensure you’re completely satisfied.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Affordable Wholesale Pricing</h3>
+              <p>
+                We understand the demands of running a business, which is why we
+                offer competitive, wholesale pricing tailored to suit your
+                needs. Outfit your team or stock up on branded products for
+                promotional use, all at a price that fits your budget.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Quick Turnaround & Easy Ordering</h3>
+              <p>
+                We make the process as simple as possible. From placing an order
+                to receiving your products, we aim to streamline your experience
+                so you can focus on what you do best—running your business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Happy Customers Section -->
+    <section class="section" id="happy-customers">
+      <h2>Happy Customers</h2>
+      <p>
+        We’re proud to have served countless satisfied customers. Join our
+        family and let us help bring your custom clothing ideas to life!
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 NG CustomWare. All rights reserved.</p>
+      <div>
+        <a
+          href="https://www.instagram.com/nextgen_customware/?igsh=cWgxNDBlMWFxZWJl&utm_source=qr#"
+          target="_blank"
+          title="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61570254496766"
+          target="_blank"
+          title="Facebook"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
